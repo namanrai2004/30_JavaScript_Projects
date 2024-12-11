@@ -16,11 +16,12 @@ body {
 }
 
 .search-container input {
-    padding: 15px;
-    width: 286px;
+    padding: 12px;
+    width: 200px;
     border: 1px solid #ccc;
     border-radius: 15px;
     font-size: 1rem;
+    margin-bottom: 15px;
 }
 
 .search-container button {
@@ -42,7 +43,7 @@ body {
     background: rgba(255, 255, 255, 0.8);
     border-radius: 15px;
     padding: 20px;
-    width: 30vw;
+    width: 56vw;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
     margin-top: 20px;
@@ -116,7 +117,7 @@ body {
     background: rgba(255, 255, 255, 0.8);
     border-radius: 15px;
     padding: 20px;
-    width: 30vw;
+    width: 55vw;
     display: flex;
     justify-content: center;
     align-items: center;
