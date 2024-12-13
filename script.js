@@ -10,7 +10,6 @@ const api = async (city) => {
         const wind = Math.floor(data.wind.speed)
         const name = data.name
         const feels = data.main.feels_like
-        const cloud = data.clouds
         const sunrise = new Date(data.sys.sunrise * 1000).toLocaleTimeString()
         const sunset = new Date(data.sys.sunset * 1000).toLocaleTimeString();
 
@@ -25,9 +24,6 @@ const api = async (city) => {
 
         const feelsLike = document.querySelector('.feels-like');
         feelsLike.innerHTML = `Feels Like: ${feels}°C`;
-
-        const cloudCover = document.querySelector('.clouds');
-        cloudCover.innerHTML = `Cloud Cover: ${cloud}%`;
 
         const sunriseElement = document.querySelector('.sunrise');
         sunriseElement.innerHTML = `Sunrise: ${sunrise}`;
